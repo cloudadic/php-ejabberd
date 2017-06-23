@@ -1,0 +1,13 @@
+{
+    "name": "cloudadic/php-ejabberd",
+    "description": "Ejabberd Client Library for chat apps",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Prashant Bhardwaj",
+            "email": "pkpbhardwaj729@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
