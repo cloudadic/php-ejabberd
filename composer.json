@@ -20,5 +20,15 @@
         "codeception/codeception": "2.2.*",
         "codeception/specify": "*",
         "codeception/verify": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejabberd\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ejabberd\\Tests\\": "tests/"
+        }
     }
 }
