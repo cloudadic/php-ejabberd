@@ -19,3 +19,16 @@ $client = Client([
 
 
 ```
+
+### Examples
+```php
+
+// Add User
+$user = 'john@doe.com';
+$client->addUser($user);
+
+// Ban Account
+$user = 'john@doe.com';
+$reason = 'Acting too smart';
+$client->banAccount($user, $reason);
+```
