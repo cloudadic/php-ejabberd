@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace common\data;
+namespace Ejabberd;
 
 /**
  * Description of EjabberdClient
@@ -15,7 +15,7 @@ namespace common\data;
  */
 use GuzzleHttp\Client;
 
-class EjabberdClient {
+class Client {
 
     private $config;
     private $baseUri = null;
