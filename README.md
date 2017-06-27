@@ -3,11 +3,15 @@ PHP Ejabberd Client to communicate with XMPP Client
 
 
 ### Installation
-```composer require cloudadic/php-ejabberd```
+```bash
+composer require cloudadic/php-ejabberd
+```
 
 ### Usage
 ```php
 <?php
+
+require __DIR__ . '/vendor/autoload.php';
 
 use Ejabberd\Client;
 
