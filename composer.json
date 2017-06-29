@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cloudadic\Ejabberd\\": "src/"
+            "Cloudadic\\Ejabberd\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cloudadic\Ejabberd\\Tests\\": "tests/"
+            "Cloudadic\\Ejabberd\\Tests\\": "tests/"
         }
     }
 }
