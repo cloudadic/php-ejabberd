@@ -26,7 +26,7 @@ namespace Ejabberd;
  *
  * @author prashantbhardwaj
  */
-use GuzzleHttp\Client;
+use GuzzleHttp\Client AS GuzzleHttpClient;
 
 class Client {
 
@@ -42,7 +42,7 @@ class Client {
             $this->baseUri = $this->config['host'];
         }
         $this->baseUri .= $this->config['apiEndPoint'];
-        $this->client = new Client([
+        $this->client = new GuzzleHttpClient([
             'base_uri' => $this->baseUri
         ]);
     }
