@@ -19,7 +19,7 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-namespace Ejabberd;
+namespace Cloudadic\Ejabberd;
 
 /**
  * Description of EjabberdClient
